@@ -5,6 +5,7 @@ from .GroupNormalization import GroupNormalization
 from .pixel_shuffler import PixelShuffler
 from .custom_layers.scale_layer import Scale
 from .custom_inits.icnr_initializer import icnr_keras
+from keras import regu
 import tensorflow as tf
 import keras.backend as K
 
